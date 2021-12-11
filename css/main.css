@@ -26,19 +26,16 @@ h3 {
 
 p {
 	font-size: 14px;
-	line-height: 21px;
     padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 }
 
 header h1 {
-	float: left;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -47,7 +44,6 @@ header h1 span {
 }
 
 header nav {
-	float: right;
 	padding: 46px 0;
 }
 header nav ul {
@@ -70,12 +66,10 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	margin: 0 auto;
-	clear: both;
 }
 
 .main-image {
 	height: auto;
-	float: left;
 }
 .main-image img {
 	width: 100%;
@@ -84,7 +78,6 @@ header nav ul li a{
 
 .main-title {
 	height: auto;
-	float: left;
 }
 .main-title h2 {
 	text-align: left;
@@ -94,7 +87,6 @@ header nav ul li a{
 .main-title p {
 	padding: 0;
 	font-size: 16px;
-	line-height: 25px;
 }
 
 .section-one,
@@ -102,7 +94,6 @@ header nav ul li a{
 .section-three {
 	width: 33%;
 	height: auto;
-	float: left;
 	border-top: 1px solid #eee;
 }
 
@@ -132,20 +123,16 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 16px;
-	line-height: 21px;
 }
 
 .address {
 	font-size: 16px;
-	line-height: 24px;
 }
 
 /*The widths are in a percentage!*/
 footer {
-	height: 50px;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	clear: both;
 	text-align: center;
 }
 footer span {
