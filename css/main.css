@@ -170,9 +170,15 @@ footer span {
 	font-size: .875em;
 }
 
-@media (min-width: 1200px) {
+
+/***BREAKPOINTS FOR SCREEN***/
+@media (min-width: 674px) {
 	.section-one,
-.section-two,
-.section-three {
-	width: 33%;
+	.section-two,
+	.section-three {
+		width: 33%;
+	}
+	.bottom-section {
+		align-items: stretch;
+	}
 }
