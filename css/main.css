@@ -19,7 +19,6 @@ body {
 	flex-flow: row wrap;
 	max-width: 1200px;
 	width: 90%;
-	margin: 0 auto;
 }
 
 h1,
@@ -51,7 +50,7 @@ header {
 	align-items: center;
 	flex-flow: row wrap;
 	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
+	width: 100%;
 }
 
 header h1 {
@@ -61,10 +60,8 @@ header h1 {
 header h1 span {
 	color: #77a466;
 }
+/***header nav placeholder if needed in future***/
 
-header nav {
-	padding: 46px 0;
-}
 header nav ul {
 	margin: 0;
 	padding: 0;
@@ -73,7 +70,7 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 0 10px;
+	padding: 0 .625em;
 	display: inline;
 }
 header nav ul li a{
@@ -88,7 +85,6 @@ header nav ul li a{
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
-	margin: 0 auto;
 }
 
 
@@ -160,8 +156,8 @@ footer {
 	align-items: center;
 	flex-flow: row wrap;
 	border-top: 3px solid #eee;
-	margin: 0 auto;
 	text-align: center;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -180,5 +176,11 @@ footer span {
 	}
 	.bottom-section {
 		align-items: stretch;
+	}
+}
+
+@media (min-width: 1193px) {
+	header nav {
+		margin-left: 25%;
 	}
 }
