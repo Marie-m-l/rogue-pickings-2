@@ -55,12 +55,19 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 0;
 }
 header h1 span {
 	color: #77a466;
 }
-/***header nav placeholder if needed in future***/
+
+nav {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
 
 header nav ul {
 	margin: 0;
@@ -70,8 +77,10 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 0 .625em;
-	display: inline;
+	padding: 6%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -179,8 +188,21 @@ footer span {
 	}
 }
 
-@media (min-width: 1193px) {
-	header nav {
-		margin-left: 25%;
+@media (min-width: 1024px) {
+	header {
+		justify-content: space-between;
+	}
+	h1 {
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	nav {
+		align-items: flex-end;
+		justify-content: flex-end;
+		width: 40%;
+	}
+	nav ul {
+		display: flex;
 	}
 }
