@@ -50,12 +50,12 @@ header {
 	align-items: center;
 	flex-flow: row wrap;
 	border-bottom: 3px solid #77a466;
+	padding: 38px 0 0;
 	width: 100%;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0 0;
 }
 header h1 span {
 	color: #77a466;
@@ -72,12 +72,13 @@ nav {
 header nav ul {
 	margin: 0;
 	padding: 0;
+	width:100%;
+	justify-content: space-between;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 6%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
